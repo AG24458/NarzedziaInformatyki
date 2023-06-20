@@ -9,6 +9,7 @@ public class NieWiem {
 
         try {
             a[2] = 555;
+            System.out.println("Cokolwiek zeby była zmiana");
 
         } catch (Exception e){
             System.out.println(e);
