@@ -1,0 +1,48 @@
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class collection {
+    static void render (ArrayList<String> wykaz){
+        for (String e: wykaz){
+            System.out.println(e);
+        }
+    }
+
+    public static void main(String[] args) {
+        System.out.println("-------------- Array List --------------");
+        ArrayList<String> list = new ArrayList<>();
+        list.add("Zbyszek");
+        list.add("Alicja");
+        list.add("Kacper");
+        list.add("Roman");
+        list.add("Łucja");
+
+        System.out.println(list);
+        render(list);
+        Collections.sort(list);
+        System.out.println("----------------- Lista sort ASC -----------------");
+        render(list);
+        Collections.reverse(list);
+        System.out.println("----------------- Lista sort DESC -----------------");
+        render(list);
+        Collections.shuffle(list);
+        System.out.println("----------------- Shuffle -----------------");
+        render(list);
+        System.out.println("----------------- MIN ----------------- \n" +  Collections.min(list));
+        System.out.println("----------------- MAX ----------------- \n" + Collections.max(list));
+        /*String szuk= "Kacper";
+       // for (String e:list){
+            //if (e == szuk)
+           // System.out.println(e);
+        }*/
+        /*{
+            for (String e: list){
+                System.out.println(e);
+            }
+    }*/
+
+
+    }
+
+
+}
