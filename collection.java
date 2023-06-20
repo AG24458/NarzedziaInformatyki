@@ -30,7 +30,17 @@ public class collection {
         render(list);
         System.out.println("----------------- MIN ----------------- \n" +  Collections.min(list));
         System.out.println("----------------- MAX ----------------- \n" + Collections.max(list));
-       
+        /*String szuk= "Kacper";
+       // for (String e:list){
+            //if (e == szuk)
+           // System.out.println(e);
+        }*/
+        /*{
+            for (String e: list){
+                System.out.println(e);
+            }
+    }*/
+
 
     }
 
