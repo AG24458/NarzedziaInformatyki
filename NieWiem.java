@@ -3,8 +3,8 @@ public class NieWiem {
 
         int[] a = new int[2];
         System.out.println("długość tablicy a = " + a.length);
-        a[0] = 112;
-        a[1] = 333;
+        a[0] = 999;
+        a[1] = 666;
         System.out.println(a[0] + a[1]);
 
         try {
