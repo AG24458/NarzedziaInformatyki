@@ -10,6 +10,7 @@ public class Stos {
         stack.add("Cztery");
 
         System.out.println(stack);
+        System.out.println("No teraz to 4 się należy :D");
         stack.pop();
         stack.pop();
         stack.push("Siedem");
