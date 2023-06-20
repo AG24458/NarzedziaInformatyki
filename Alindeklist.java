@@ -7,9 +7,9 @@ public class Alindeklist {
         System.out.println("------------------ Linked List -----------------------");
         LinkedList<String> list = new LinkedList<>();
         list.add("Gliwice");
-        list.add("KAtowice");
+        list.add("Katowice");
+        list.add("Lublin");
         list.add("Gdańsk");
-        list.add("Poznan");
 
         System.out.println(list);
         display(list);
