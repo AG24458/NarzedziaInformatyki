@@ -1,2 +1,2 @@
 # NarzedziaInformatyki
-Chcem zaliczyć chcem zdać :)
+Anna 24458 C8
