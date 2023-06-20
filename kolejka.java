@@ -17,7 +17,7 @@ public class kolejka {
         render(queue);
         queue.poll();
         queue.poll();
-        System.out.println("Ilosc elementow po wykonaniu 2 zadan " + queue.size());
+        System.out.println("Bla Bla Bla Bla " + queue.size());
         render(queue);
         System.out.println(queue);
 
