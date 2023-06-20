@@ -11,11 +11,11 @@ public class collection {
     public static void main(String[] args) {
         System.out.println("-------------- Array List --------------");
         ArrayList<String> list = new ArrayList<>();
-        list.add("Zbyszek");
-        list.add("Alicja");
-        list.add("Kacper");
-        list.add("Roman");
+        list.add("Anna");
         list.add("Łucja");
+        list.add("Marta");
+        list.add("Kasia");
+        list.add("Ola");
 
         System.out.println(list);
         render(list);
